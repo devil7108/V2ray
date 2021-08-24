@@ -24,12 +24,12 @@ cat > /etc/v2ray/config.json <<-EOF
         "settings": {
             "vnext": [
                 {
-            "address": "2.56.242.101",
+            "address": "2.56.242.xyxyIpiloveyou77",
             "port": 5227, 
             "users": [
               {
                 
-                "id": "221d95f8-12e2-4276-a899-24c3db5012e9",
+                "id": "221d95f8-12e2-4276-a899-24hhhhhhhhhsssss",
                 "level": 0,
                 "alterId": 100
               }
