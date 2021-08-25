@@ -1,11 +1,6 @@
 #/bin/bash
 bash <(curl -L -s https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
 
-systemctl start v2ray.service
-systemctl enable v2ray.service
-systemctl restart v2ray.service
-
-mkdir /usr/local/bin/v2ray
 chmod +777 /usr/local/bin/v2ray
 cd /usr/local/bin/v2ray
 cat > /etc/v2ray/config.json <<-EOF
@@ -94,3 +89,7 @@ cat > /etc/v2ray/config.json <<-EOF
     ]
   }
 }
+
+systemctl start v2ray.service
+systemctl enable v2ray.service
+systemctl status v2ray.service
